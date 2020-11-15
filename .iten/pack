@@ -1,0 +1,14 @@
+#!/bin/bash
+
+if [ -e "$PREFIX/tools/pack-Tool/install.sh" ];then
+
+echo "Ejecute install.sh para abrir este archivo"
+
+exit 1
+
+else
+
+echo ""
+
+fi
+

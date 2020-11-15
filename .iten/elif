@@ -1,0 +1,196 @@
+#!/bin/bash
+function banner () {
+                echo -e "$purpura"
+        printf "
+        ┌═════════════════Pack-Tool═════════════════════┐
+        | █▀▀ █ █ ▀█▀ █▀▀ █▀█   ▀█▀ █▀▀ █▀▄ █▄█ █ █ █ █ |
+        | █   █▀█  █  █   █ █    █  █▀▀ █▀▄ █ █ █ █ ▄▀▄ |
+        | ▀▀▀ ▀ ▀ ▀▀▀ ▀▀▀ ▀▀▀    ▀  ▀▀▀ ▀ ▀ ▀ ▀ ▀▀▀ ▀ ▀ |
+        └═══════════════════════════════Black-Hat═══════┘"
+                echo ''
+        }
+#instalacion
+
+read -p "De verdad deseas continuar ?[y/n] : " o
+if [ $o = "y" ]
+then
+apt install figlet
+sleep 3
+clear
+banner
+echo ""
+echo
+echo ""
+echo -e '\e[1;30m   Descargando Pack-Tool 2% \e[1;31m—\e[1;30m> '
+echo ""
+echo ""
+sleep 1
+clear
+banner
+echo
+echo ""
+echo ""
+echo -e '\e[1;30m   Descargando Pack-Tool 5% \e[1;31m— —\e[1;30m> '
+echo ""
+echo ""
+sleep 4
+clear
+banner
+echo
+echo ""
+echo ""
+echo -e '\e[1;30m   Descargando Pack-Tool 9% \e[1;31m— — —\e[1;30m> '
+echo ""
+echo ""
+sleep 3
+clear
+banner
+echo
+echo ""
+echo ""
+echo -e '\e[1;30m   Descargando Pack-Tool 17% \e[1;31m— — — —\e[1;30m> '
+echo ""
+echo ""
+sleep 2
+clear
+banner
+echo
+echo ""
+echo ""
+echo -e '\e[1;30m   Descargando Pack-Tool 24% \e[1;31m— — — — —\e[1;30m> '
+echo " "
+echo " "
+sleep 2
+clear
+banner
+echo
+echo ""
+echo ""
+echo -e '\e[1;30m   Descargando Pack-Tool 33% \e[1;31m— — — — — —\e[1;30m> '
+echo ""
+echo ""
+sleep 1
+clear
+banner
+echo
+echo ""
+echo ""
+echo -e '\e[1;30m   Descargando Pack-Tool 39% \e[1;31m— — — — — — —\e[1;30m> '
+echo ""
+echo ""
+sleep 4
+clear
+banner
+echo
+echo ""
+echo ""
+echo -e '\e[1;30m   Descargando Pack-Tool 47% \e[1;31m— — — — — — — —\e[1;30m> '
+echo ""
+echo ""
+sleep 2
+clear
+banner
+echo
+echo ""
+echo ""
+echo -e '\e[1;30m   Descargando Pack-Tool 54% \e[1;31m— — — — — — — — —\e[1;30m> '
+echo ""
+echo ""
+sleep 4
+clear
+banner
+echo
+echo ""
+echo ""
+echo -e '\e[1;30m   Descargando Pack-Tool 61% \e[1;31m— — — — — — — — — —\e[1;30m> '
+echo ""
+echo ""
+sleep 3
+clear
+banner
+echo
+echo ""
+echo ""
+echo -e '\e[1;30m   Descargando Pack-Tool 71% \e[1;31m— — — — — — — — — — —\e[1;30m> '
+echo ""
+echo ""
+sleep 1
+clear
+banner
+echo
+echo ""
+echo ""
+echo -e '\e[1;30m   Descargando Pack-Tool 79% \e[1;31m— — — — — — — — — — — —\e[1;30m> '
+echo ""
+echo ""
+sleep 5
+clear
+banner
+echo
+echo ""
+echo ""
+echo -e '\e[1;30m   Descargando Pack-Tool 88% \e[1;31m— — — — — — — — — — — — —\e[1;30m> '
+echo ""
+echo ""
+sleep 2
+clear
+banner
+echo
+echo ""
+echo ""
+echo -e '\e[1;30m   Descargando Pack-Tool 93% \e[1;31m— — — — — — — — — — — — — — —\e[1;30m> '
+echo ""
+echo ""
+sleep 1
+clear
+banner
+echo
+echo ""
+echo ""
+echo -e '\e[1;30m   Descargando Pack-Tool 100% \e[1;31m— — — — — — — — — — — — — — — —\e[1;30m> '
+echo ""
+echo ""
+sleep 4
+clear
+echo -e '\e[1;30m'
+echo "₡₡₡₡₡₡₡₡₡₡₡₡₡₡₡₲₲₲₲₲₲₲₲₡₡₡₡₡₡₡₡₡₡₡₡₡₡₡₡₡₡₡₡₡₡₡₡₡₡₡₡₡₡₡₡₡₡₡₡₡₡₡₡"
+echo ""
+setterm -foreground red 
+figlet instalando 
+echo ""
+echo -e '\e[1;30m'
+echo "₡₡₡₡₡₡₡₡₡₡₡₡₡₡₡₡₡₡₡₡₡₡₡₡₡₡₡₡₡₡₡₡₡₡₡₡₡₡₡₡₡₡₡₡₡₡₡₡₡₡₡₡₡₡₡₡₡₡₡₡₡₡"
+sleep 1.5
+apt install ruby
+apt install termux-api
+apt install php
+apt install python
+apt install cowsay
+apt install toilet
+gem install lolcat
+sleep 2
+clear
+echo -e '\e[1;30m'
+echo "################################################################"
+echo ""
+setterm -foreground red
+echo '       ____            _       _____           _
+      |  _ \ __ _  ___| | __  |_   _|__   ___ | |
+      | |_) / _` |/ __| |/ /    | |/ _ \ / _ \| |
+      |  __/ (_| | (__|   <     | | (_) | (_) | |
+      |_|   \__,_|\___|_|\_\    |_|\___/ \___/|_|'
+echo "                                      v0.8 C-T                  "
+echo -e '\e[1;30m'
+echo "####################################################################"
+echo ""
+echo -e "\e[1;30mPara abrir Pack-Tool Escriba \e[1;31mpack-tool"
+echo ""
+elif [ $o = "n" ];then
+echo -e "\e[1;35m"
+figlet Hasta Luego
+exit
+else
+echo -e ' \e[1;31mO\e[1;30mpc\e[1;31mion \e[1;31mIn\e[1;30mcorre\e[1;31mc\e[1;30mta'
+sleep 2
+source $HOME/pack-Tool/.iten/elif
+fi

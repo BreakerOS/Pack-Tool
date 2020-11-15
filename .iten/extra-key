@@ -1,0 +1,87 @@
+#!/bin/bash
+#Termux-Keys
+#COLORES
+source $PREFIX/tools/pack-Tool/.iten/COLOR
+#BANNER
+echo -e '\e[1;30m
+
+...`````,,,;;:ccc;,.
+             ..`;:llllc.
+           ...``,,,,,,`,,,,,;:;
+        ...`,,```.......,;:::clld:.             -do./d+
+                  .`,,`,,,`..  00m.+++++mmmdhNmdy++dmhhjf-
+              .,,,``           MM-oNNNNNNNNNNNNNNmmmmmdmdds-
+           ..`,..;           +hdmmNNNNNNNmmmmmNNNmmmmmmDddds:
+                           -+mNNNNNdy+::-----:+shmmmmmdddd\e[1;31mD\e[1;30mdy:
+                         .sdNNNNNd+-            -ohmmmddddhddo-
+                        +.HHHHSKS+-              -,jdmmmshhhhki-
+                        -+BBDNDMK#-               -;HDDDJFFNXJFP-
+                       .osmNmNm-..                    :sdddddmmmO-
+                        :NNNNNs.. \e[1;31m    Chico Termux \e[1;30m     ./ydddmmHO-
+                         sdmNNNNs-                         -odmmmms-
+                        -.:mNNNNd+.                         .ommmmmh-
+                          `ydhmNNNds:.                        +mmmmh.
+                             .`:odmNNNds/.`                    -mmh+``
+                                `.-+ydmNNmds+-`                -:.`
+                                 `` -/oydmNNmyo-
+                                       `.:oymmmh+.
+                                            `-ohmmo.
+                                                .odd:
+                                                  `od:
+                                                    /d`
+                                                     y.
+                                                    .`'
+
+echo -e '\e[1;31m             ▀█▀\e[1;30m █▀▀ █▀█\e[1;31m █▀▄▀█\e[1;30m █ █ ▀▄▀\e[1;31m ▄▄\e[1;30m █▄▀\e[1;31m █▀▀\e[1;30m █▄█ █▀
+            \e[1;31m  █ \e[1;30m ██▄ █▀▄\e[1;31m █ ▀ █\e[1;30m █▄█ █ █    █ █\e[1;31m ██▄\e[1;30m  █  ▄█
+'
+echo ' '
+sleep 0.5
+setterm -foreground magenta
+echo ' Instalacion De Termux_Setup.C-T '
+echo -e '\e[1;30m———————————————————————————————————————'
+sleep 0.5
+echo ' '
+setterm -foreground red
+echo ' $ apt update'
+echo ' '
+echo ' $ apt upgrade '
+echo ' '
+echo ' $ apt install git'
+echo ' '
+echo ' $ git clone https://github.com/chicotermux/Termux_Setup.C-T'
+echo ' '
+echo ' $ cd Extra_Keys-C-T'
+echo ' '
+echo ' $ bash install.sh o ./install.sh '
+echo ' '
+echo ' $ bash setup.sh o ./setup.sh '
+echo ' '
+echo ''
+sleep 0.5
+echo -e '\e[1;30m————————————————————————————————————————————————————————'
+setterm -foreground green
+echo ' [ 1 ] clonar la herraminta Termux_Setup.C-T'
+echo -e '\e[1;30m—————————————————————————————————————————————————————'
+sleep 0.5
+echo -e '\e[1;31m [ 99 ] para volver atras '
+echo ' '
+echo -e "\e[1;30m"
+read -p "      Extra_Keys-C-T: " o
+if [ $o = "1" ]
+then
+cd $HOME
+git clone https://github.com/chicotermux/Termux_Setup.C-T
+clear
+setterm -foreground red
+echo ' Descarga Finalizada '
+elif [ $o = "99" ]
+then
+source $PREFIX/bin/pack-tool
+else
+setterm -foreground red
+echo " opción incorrecta ,verifique respuesta"
+sleep 2
+clear
+source $PREFIX/tools/pack-Tool/.iten/extra-key
+fi

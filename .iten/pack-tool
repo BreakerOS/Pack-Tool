@@ -1,0 +1,341 @@
+#!/bin/bash
+sleep 1.5
+clear
+#COLORES
+source $PREFIX/libexec/colores/COLOR
+#Funciones
+function banner () {
+		echo -e "$purpura"
+	printf "	┌═════════════════Pack-Tool═════════════════════┐
+	| █▀▀ █ █ ▀█▀ █▀▀ █▀█   ▀█▀ █▀▀ █▀▄ █▄█ █ █ █ █ |
+	| █   █▀█  █  █   █ █    █  █▀▀ █▀▄ █ █ █ █ ▄▀▄ |
+	| ▀▀▀ ▀ ▀ ▀▀▀ ▀▀▀ ▀▀▀    ▀  ▀▀▀ ▀ ▀ ▀ ▀ ▀▀▀ ▀ ▀ |
+	└═══════════════════════════════Black-Hat═══════┘"
+		echo ''
+	}
+
+#Este Script ah sido creado por el chico termux ( C-T )
+#fecha 6/8/2020
+#Bienbenidos a mi script
+#En este script es donde estaran todas mis herramientas que hire creando
+#FIGLET
+echo -e ' \e[1;31m   [\e[1;36m☬\e[1;31m]\e[1;35m——————————————————————\e[1;31mVersion:v0.6 C-T\e[1;35m——————————————————————————\e[1;31m[\e[1;36m☬\e[1;31m]\e[1;30m'
+echo -e '        ,---.  \e[1;30m  .--.\e[1;30m    ,--,\e[1;30m  ,-. .-.\e[1;30m  _______  .---.  \e[1;30m .---. \e[1;30m ,-.
+        | .-.\ \e[1;30m / /\ \ \e[1;30m.` -`) \e[1;30m | |/ / \e[1;30m |__   __|/ .-. ) \e[1;30m/ .-. ) \e[1;30m| |
+        | |-` )\e[1;30m/ /__\ \\\e[1;30m|  |(_) \e[1;30m| | / \e[1;30m    )| |   | | |(_)\e[1;30m| | |(_)\e[1;30m| |
+        | |--`\e[1;30m |  __  |\e[1;30m\  \    \e[1;30m| | \ \e[1;30m   (_) |   | | | |\e[1;30m | | | | \e[1;30m| |
+        | |   \e[1;30m | |  |)|\e[1;30m \  `-. \e[1;30m| |) \ \e[1;30m    | |   \ `-` / \e[1;30m\ `-` / \e[1;30m| `--.
+        /(   \e[1;30m  |_|  (_)\e[1;30m  \____\\\e[1;30m|((_)-` \e[1;30m   `-`    )---`  \e[1;30m )---` \e[1;30m |( __.`
+       (__)            \e[1;30m        (_)  \e[1;30m            (_)    \e[1;30m (_)  \e[1;30m   (_)'
+echo -e ' \e[1;31m   [\e[1;36m☬\e[1;31m]\e[1;35m—————————————————————————\e[1;31mHacking-Tool\e[1;35m———————————————————————————\e[1;31m[\e[1;36m☬\e[1;31m]'
+#PACK-TOOL
+echo " "
+echo -e '\e[1;30m         ######################################'
+echo -e '         \e[1;30m[\e[1;35m★\e[1;30m] \e[1;31mSCRIPT:\e[1;31m PACK-TOOL\e[1;30m              [\e[1;35m★\e[1;30m]'
+echo -e '         [\e[1;35m★\e[1;30m] \e[1;30mAUTOR: \e[1;31mCHICO TERMUX C-T  \e[1;30m      [\e[1;35m★\e[1;30m]'
+echo -e ' \e[1;30m        [\e[1;35m★\e[1;30m] \e[1;31mhttps://github.com/chicotermux/\e[1;30m[\e[1;35m★\e[1;30m]'
+echo -e '\e[1;30m         ######################################'
+echo ""
+echo -e "$gris[$rojo 8 $gris]$rojo Para ver informacion de el creador de este script "
+echo ""
+echo -e '\e[1;30m
+
+    ┌══════════════════════════════════════┐
+ \e[1;35m#~\e[1;30m █ [\e[1;31m1\e[1;30m]\e[1;31m instalar herramientas de termux\e[1;30m
+    └══════════════════════════════════════┘'
+	echo -e '\e[1;30m
+    ┌══════════════════════════════════════┐
+ \e[1;35m#~\e[1;30m █ [\e[1;31m2\e[1;30m]\e[1;31m Ver comandos basicos de termux\e[1;30m
+    └══════════════════════════════════════┘'
+	echo -e '\e[1;30m
+    ┌══════════════════════════════════════┐
+ \e[1;35m#~\e[1;30m █ [\e[1;31m3\e[1;30m] \e[1;31mVer instalacion de Termux_Setup.C-T\e[1;30m
+    └══════════════════════════════════════┘'
+	echo -e '\e[1;30m
+    ┌══════════════════════════════════════┐
+ \e[1;35m#~\e[1;30m █ [\e[1;31m4\e[1;30m]\e[1;31m Ver instalacion de Metasploit_C-T\e[1;30m
+    └══════════════════════════════════════┘'
+	echo -e '\e[1;30m
+    ┌══════════════════════════════════════┐
+ \e[1;35m#~\e[1;30m █ [\e[1;31m5\e[1;30m] \e[1;31mVer instalacion de Ubuntu C-T\e[1;30m
+    └══════════════════════════════════════┘'
+echo " "
+echo " "
+setterm -foreground red
+echo '[ 99 ] para salir'
+echo ''
+echo ''
+
+echo -e "\e[1;30m"
+read -p "    Pack-Tool :" o
+if [ $o = "1" ]
+then
+printf "$blue"
+clear
+setterm -foreground red
+echo "#####################################################################"
+echo " "
+figlet actualizando paquetes| lolcat
+setterm -foreground red
+echo " "
+echo '#####################################################################'
+sleep 3
+apt update -y
+apt upgrade -y
+sleep 2
+clear
+echo ' '
+echo ' '
+echo ' '
+echo ' '
+echo ' '
+echo ' '
+echo ' '
+#INSTALACION DE HERRAMIENTAS DE EL SISTEMA
+echo " << AHORA VAMOS A INSTALAR TODOS LOS PAQUETES DE TERMUX >>"| lolcat
+sleep 3
+echo -e '\e[1;32m                    [-] Instalando Wget...' && apt install wget -y > /dev/null 2>&1
+sleep 2
+echo ''
+echo ''
+echo -e '\e[1;32m                    [-] Instalando Mc...' && apt install mc -y > /dev/null 2>&1
+sleep 2
+echo ''
+echo ''
+echo -e '\e[1;32m                    [-] Instalando Proot...' && apt install proot -y > /dev/null 2>&1
+sleep 2
+echo ''
+echo ''
+echo -e '\e[1;32m                    [-] Instalando Python...' && apt install python -y > /dev/null 2>&1
+sleep 2
+echo ''
+echo ''
+echo -e '\e[1;32m                    [-] Instalando Root-repo...' && apt install root-repo -y > /dev/null 2>&1
+sleep 2
+echo ''
+echo ''
+echo -e '\e[1;32m                    [-] Instalando Neofetch...' && apt install neofetch -y > /dev/null 2>&1
+sleep 2
+echo ''
+echo ''
+echo -e '\e[1;32m                    [-] Instalando Fish...' && apt install fish -y > /dev/null 2>&1
+sleep 2
+echo ''
+echo ''
+echo -e '\e[1;32m                    [-] Instalando Util-linux...' && apt install util-linux -y > /dev/null  2>&1
+sleep 2
+echo ''
+echo ''
+echo -e '\e[1;32m                    [-] Instalando Coreutils...' && apt install coreutils -y > /dev/null  2>&1
+sleep 2
+echo ''
+echo ''
+echo -e '\e[1;32m                    [-] Instalando Vim...' && apt install vim -y > /dev/null 2>&1
+sleep 2
+echo ''
+echo ''
+echo -e '\e[1;32m                    [-] Instalando Ruby...' && apt install ruby -y > /dev/null 2>&1
+sleep 2
+echo ''
+echo ''
+echo -e '\e[1;32m                    [-] Instalando Openssl-tool...' && apt install openssl-tool -y > /dev/null 2>&1
+sleep 2
+echo ''
+echo ''
+echo -e '\e[1;32m                    [-] Instalando Ncurses...' && apt install ncurses -y > /dev/null 2>&1
+sleep 2
+echo ''
+echo ''
+echo -e '\e[1;32m                    [-] Instalando Postgresql...' && apt install postgresql -y > /dev/null 2>&1
+sleep 2
+echo ''
+echo ''
+echo -e '\e[1;32m                    [-] Instalando Ncurses-utils...' && apt install ncurses-utils -y > /dev/null 2>&1
+sleep 2
+echo ''
+echo ''
+echo -e '\e[1;32m                    [-] Instalando Apr...' && apt install apr -y > /dev/null 2>&1
+sleep 2
+echo ''
+echo ''
+echo -e '\e[1;32m                    [-] Instalando Apr-util...' && apt install apr-util -y > /dev/null 2>&1
+sleep 2
+echo ''
+echo ''
+echo -e '\e[1;32m                    [-] Instalando Curl...' && apt install curl -y > /dev/null 2>&1
+sleep 2
+echo ''
+echo ''
+echo -e '\e[1;32m                    [-] Instalando Tor...' && apt install tor -y > /dev/null 2>&1
+sleep 2
+echo ''
+echo ''
+echo -e '\e[1;32m                    [-] Instalando Php...' && apt install php -y > /dev/null 2>&1
+sleep 2
+echo ''
+echo ''
+echo -e '\e[1;32m                    [-] Instalando Toilet...' && apt install toilet -y > /dev/null 2>&1
+sleep 2
+echo ''
+echo ''
+echo -e '\e[1;32m                    [-] Instalando Cowsay...' && apt install cowsay -y > /dev/null 2>&1
+sleep 2
+echo ''
+echo ''
+echo -e '\e[1;32m                    [-] Instalando Perl...' && apt install perl -y > /dev/null 2>&1
+sleep 2
+echo ''
+echo ''
+echo -e '\e[1;32m                    [-] Instalando Nmap...' && apt install nmap -y > /dev/null 2>&1
+sleep 2
+echo ''
+echo ''
+echo -e '\e[1;32m                    [-] Instalando Openssh...' && apt install openssh -y > /dev/null 2>&1
+sleep 2
+echo ''
+echo ''
+echo -e '\e[1;32m                    [-] Instalando Screenfetch...' && apt install screenfetch -y > /dev/null 2>&1
+sleep 2
+echo ''
+echo ''
+echo -e '\e[1;32m                    [-] Instalando Clang...' && apt install clang -y > /dev/null 2>&1
+sleep 2
+echo ''
+echo ''
+echo -e '\e[1;32m                    [-] Instalando Jq...' && apt install jq -y > /dev/null 2>&1
+sleep 2
+echo ''
+echo ''
+echo -e '\e[1;32m                    [-] Instalando Zip...' && apt install zip -y > /dev/null 2>&1
+sleep 2
+echo ''
+echo ''
+echo -e '\e[1;32m                    [-] Instalando Nano...' && apt install nano -y > /dev/null 2>&1
+sleep 2
+echo ''
+echo ''
+echo -e '\e[1;32m                    [-] Instalando Fish...' && apt install fish -y > /dev/null 2>&1
+sleep 2
+echo ''
+echo ''
+echo -e '\e[1;32m                    [-] Instalando W3m...' && apt install w3m -y > /dev/null 2>&1
+sleep 2
+echo ''
+echo ''
+echo -e '\e[1;32m                    [-] Instalando Cmatrix...' && apt install cmatrix -y > /dev/null 2>&1
+sleep 2
+echo ''
+echo ''
+echo -e '\e[1;32m                    [-] Instalando Wcalc...' && apt install wcalc -y > /dev/null 2>&1
+sleep 2
+echo ''
+echo ''
+echo -e '\e[1;32m                    [-] Instalando Openssl...' && apt install openssl -y > /dev/null 2>&1
+sleep 2
+echo ''
+echo ''
+echo -e '\e[1;32m                    [-] Instalando Bmon...' && apt install bmon -y > /dev/null 2>&1
+sleep 2
+echo ''
+echo ''
+echo -e '\e[1;32m                    [-] Instalando Make...' && apt install make -y > /dev/null 2>&1
+sleep 2
+echo ''
+echo ''
+echo -e '\e[1;32m                    [-] Instalando Unzip...' && apt install unzip -y > /dev/null 2>&1
+sleep 2
+echo ''
+echo ''
+echo -e '\e[1;32m                    [-] Instalando Tar...' && apt install tar -y > /dev/null 2>&1
+sleep 2
+echo ''
+echo ''
+echo -e '\e[1;32m                    [-] Instalando Htop...' && apt install htop -y > /dev/null 2>&1
+sleep 2
+echo ''
+echo ''
+echo -e '\e[1;32m                    [-] Instalando Bison...' && apt install bison -y > /dev/null 2>&1
+sleep 2
+echo ''
+echo ''
+echo -e '\e[1;32m                    [-] Instalando findutils...' && apt install findutils -y > /dev/null 2>&1
+sleep 2
+echo ''
+echo ''
+echo -e '\e[1;32m                    [-] Instalando Libtool...' && apt install libtool -y > /dev/null 2>&1
+sleep 2
+echo ''
+echo ''
+echo -e '\e[1;32m                    [-] Instalando Tsu...' && apt install tsu -y > /dev/null 2>&1
+sleep 2
+echo ''
+echo ''
+echo -e '\e[1;32m                    [-] Instalando Apache...' && apt install apache -y > /dev/null 2>&1
+sleep 2
+echo ''
+echo ''
+echo -e '\e[1;32m                    [-] Instalando Apache2...' && apt install apache2 -y > /dev/null 2>&1
+sleep 2
+echo ''
+echo ''
+echo -e '\e[1;32m                    [-] Instalando Httrack...' && apt install httrack -y > /dev/null 2>&1
+sleep 2
+echo ''
+echo ''
+echo -e '\e[1;32m                    [-] Instalando X11-Repo...' && apt install x11-repo -y > /dev/null 2>&1
+sleep 2
+echo ''
+echo ''
+echo -e '\e[1;32m                    [-] Instalando FakeRoot...' && apt install fakeroot -y > /dev/null 2>&1
+sleep 2
+echo -e '\e[1;30m'
+echo -e '####################################################################'
+echo ''
+setterm -foreground red 
+figlet Finalizado
+echo ''
+echo -e '\e[1;30m'
+echo -e '####################################################################'
+echo ''
+echo ''
+elif [ $o = "2" ]
+then
+sleep 1.5
+clear
+source $PREFIX/tools/pack-Tool/.iten/comandos
+elif [ $o = "3" ]
+then
+sleep 1.5
+clear
+source $PREFIX/tools/pack-Tool/.iten/extra-key
+elif [ $o = "4" ]
+then
+sleep 1.5
+clear
+source $PREFIX/tools/pack-Tool/.iten/metasploit_C-T
+elif [ $o = "5" ]
+then
+sleep 1.5
+clear
+source $PREFIX/tools/pack-Tool/.iten/ubuntu
+elif [ $o = "6" ]
+then
+sleep 1.5
+elif [ $o = "8" ]
+then
+sleep 1.5
+clear
+source $PREFIX/tools/pack-Tool/.iten/Chico-Termux
+elif [ $o = "99" ];then
+echo -e "\e[1;35m"
+banner
+echo 'HASTA LUEGO'
+echo ''
+exit
+else
+setterm -foreground red
+echo " opción incorrecta ,verifique respuesta"
+sleep 2
+clear
+source $PREFIX/bin/pack-tool
+fi

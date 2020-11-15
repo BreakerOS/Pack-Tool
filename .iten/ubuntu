@@ -1,0 +1,87 @@
+#!/bin/bash
+clear
+echo -e ' \e[1;30m                    .!!!!!~!!!!!:.
+                  .xUHWH!! !!?M88WHX:.
+                .X*#M@$!!  !X!M$$$$$$WWx:.
+               :!!!!!!?H! :!$!$$$$$$$$$$8X:
+              !!~  ~:~!! :~!$!#$$$$$$$$$$8X:
+             :!~::!H!<   ~.U$X!?R$$$$$$$$MM!
+             ~!~!!!!~~ .:XW$$$U!!?$$$$$$RMM!
+               !:~~~ .:!M"T#$$$$WX??#MRRMMM!
+               ~?WuxiW*`   `"#$$$$8!!!!??!!!
+             :X- M$$$$  \e[1;31m  *\e[1;30m  `"T#$T~!8$WUXU~
+            :%`  ~#$$$m:        ~!~ ?$$$$$$
+          :!`.-   ~T$$$$8xx.  .xWW- ~""##*""
+.....   -~~:<` !    ~?T#$$@@W@*?$$  \e[1;31m * \e[1;30m /`
+W$@@M!!! .!~~ !!     .:XUW$W!~ `"~:    :
+#"~~`.:x%`!!  !H:   !WM$$$$Ti.: .!WUn+!`
+:::~:!!`:X~ .: ?H.!u "$$$B$$$!W:U!T$$M~
+.~~   :X@!.-~   ?@WTWo("*$$$W$TH$! `
+Wi.~!X$?!-~    : ?$$$B$Wu("**$RM!
+$R@i.~~ !     :   ~$$$$$B$$en:``
+?MXT@Wx.~    :     ~"##*$$$M '
+sleep 0.5
+echo -e ' \e[1;31m_   _\e[1;30m _                 _
+\e[1;31m| | | |\e[1;30m |__ \e[1;31m _   _\e[1;30m _ __ | |\e[1;31m_\e[1;30m _   _
+| | | | `_ \\\e[1;31m| | | |\e[1;30m `_ \\\e[1;31m| __|\e[1;30m | | |
+| |_| | |_) \e[1;31m| |_| |\e[1;30m | |\e[1;31m | |_\e[1;30m| |_| |
+\e[1;31m \___/\e[1;30m|_.__/\e[1;31m\___,_|\e[1;30m_| |_|\e[1;31m\__|\e[1;30m\__,_|'
+echo ' '
+sleep 0.5
+setterm -foreground magenta
+echo ' Instalacion De Ubuntu-Chico_Termux '
+echo -e '\e[1;30m———————————————————————————————————————'
+sleep 0.5
+echo ' '
+setterm -foreground red
+echo ' $ apt update'
+echo ' '
+echo ' $ apt upgrade '
+echo ' '
+echo ' $ apt install git'
+echo ' '
+echo ' $ git clone https://github.com/chicotermux/ubuntu-Chico_termux'
+echo ' '
+echo ' $ cd ubuntu-Chico_termux'
+echo ' '
+echo ' $ bash ubuntu_Chico-Termux o ./ubuntu_Chico-Termux '
+echo ' '
+echo -e '\e[1;30mAqui empesara \e[1;31m la instalacion\e[1;30m De Ubuntu'
+echo ' '
+echo ' #para salir de la consola de Ubuntu toque'
+echo ' '
+echo ' $ exit '
+echo ' '
+echo ' # para abrir la consola de Ubuntu toque '
+echo ' '
+echo ' $ cd Chico-termux_Ubuntu'
+echo ' '
+echo ' $ ./start-ubuntu.sh'
+echo ' '
+sleep 0.5
+echo -e '\e[1;30m————————————————————————————————————————————————————————'
+setterm -foreground green
+echo ' [ 1 ] clonar la herraminta ubuntu-Chico_termux'
+echo -e '\e[1;30m—————————————————————————————————————————————————————'
+sleep 0.5
+echo -e '\e[1;31m [ 99 ] para volver atras '
+echo ' '
+echo -e "\e[1;30m"
+read -p "Ubuntu_Chico-termux #~ : " o
+if [ $o = "1" ]
+then
+cd $HOME
+git clone https://github.com/chicotermux/ubuntu-Chico_termux
+clear
+setterm -foreground red
+echo ' Descarga Finalizada '
+elif [ $o = "99" ]
+then
+source $PREFIX/bin/pack-tool
+else
+setterm -foreground red
+echo " opción incorrecta ,verifique respuesta"
+sleep 2
+clear
+source $PREFIX/tools/pack-Tool/.iten/ubuntu
+fi

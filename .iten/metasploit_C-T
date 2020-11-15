@@ -1,0 +1,80 @@
+#!/bin/bash
+#COLOR
+source $PREFIX/tools/pack-Tool/.iten/COLOR
+#BANNER
+clear
+echo -e "$rojo      .:okOOOkdc'           'cdkOOOko:.
+    .xOOOOOOOOOOOOc       cOOOOOOOOOOOOx.
+   :OOOOOOOOOOOOOOOk,   ,kOOOOOOOOOOOOOOO:
+  'OOOOOOOOOkkkkOOOOO: :OOOOOOOOOOOOOOOOOO'
+  oOOOOOOOO$blanco MMMM$rojo oOOOOoOOOOl$blanco MMMM$rojo OOOOOOOOo
+  dOOOOOOOO$blanco MMMMMM$rojo cOOOOOc$blanco MMMMMM$rojo OOOOOOOOx
+  lOOOOOOOO$blanco MMMMMMMMM$rojo d$blanco MMMMMMMMM$rojo OOOOOOOOl
+  .OOOOOOOO$blanco MMM$red ;MMMMMMMMMM;$blanco MMMM$rojo OOOOOOOO.
+   cOOOOOOO$blanco MMM$rojo OOc$blanco MMMMM$rojo oOO$blanco MMM$rojo OOOOOOOc
+    oOOOOOO$blanco MMM$rojo OOOO$blanco MMM$rojo OOOO$blanco MMM$rojo OOOOOOo
+     lOOOOO$blanco MMM$rojo OOOO$blanco MMM$rojo OOOO$blanco MMM$rojo OOOOOl
+      ;OOOO$blanco MMM$rojo OOOO$blanco MMM$rojo OOOO$blanco MMM$rojo OOOO;
+       .dOOo$blanco WM$rojo OOOOocccxOOOO$blanco MX$rojo xOOd.
+         ,kOl$blanco M$rojo OOOOOOOOOOOOO$blanco M$rojo dOk,
+           :kk;.OOOOOOOOOOOOO.;Ok:
+             ;kOOOOOOOOOOOOOOOk:
+               ,xOOOOOOOOOOOx,
+                 .lOOOOOOOl.
+                    ,dOd,
+                      ."
+sleep 0.5
+echo -e '\e[1;30m_                                                    _
+/ \    /\         __                         _   __  /_/ __
+| |\  / | _____   \ \           ___   _____ | | /  \ _   \ \
+| | \/| | | ___\ |- -|   /\    / __\ | -__/ | || | || | |- -|
+|_|   | | | _|__  | |_  / -\ __\ \   | |    | | \__/| |  | |_
+      |/  |____/  \___\/ /\ \\___/   \/     \__|    |_\  \___\'
+sleep 0.5
+echo -e "\e[0;35m"
+echo "  instalacion de metasploit_C-T "
+echo -e "\e[1;30m———————————————————————————————————"
+sleep 1
+echo ""
+echo -e "\e[1;31m"
+echo " $ apt update"
+echo ""
+echo " $ apt upgrade"
+echo ""
+echo " $ apt install git"
+echo ""
+echo " $ git clone https://github.com/chicotermux/metasploit_C-T"
+echo ""
+echo " $ cd metasploit_C-T"
+echo ""
+echo " $ chmod 700 install.sh"
+echo ""
+echo " $ bash install.sh o ./install.sh"
+echo""
+sleep 0.5
+echo -e '\e[1;30m——————————————————————————————————————————————————————'
+setterm -foreground green
+echo ' [ 1 ]  clonar metasploit_C-T'
+echo -e '\e[1;30m————————————————————————————————————————————————————————'
+sleep 0.5
+echo -e '\e[1;31m [ 99 ] para volver atras '
+echo ' '
+echo -e "\e[1;30m"
+read -p "metasploit_C-T: " o
+if [ $o = "1" ]
+then
+cd $HOME
+git clone https://github.com/chicotermux/metasploit_C-T
+clear
+setterm -foreground red
+echo ' Descarga Finalizada '
+elif [ $o = "99" ]
+then
+source $PREFIX/bin/pack-tool
+else
+setterm -foreground red
+echo " opción incorrecta ,verifique respuesta"
+sleep 2
+clear
+source $PREFIX/tools/pack-Tool/.iten/metasploit_C-T
+fi

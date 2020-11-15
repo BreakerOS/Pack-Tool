@@ -1,0 +1,271 @@
+#!/data/data/com.termux/files/usr/bin/bash
+clear
+setterm -foreground cyan
+echo 'YA ME CANSÉ , VOY A METERLE MANO A ESTADOS UNIDOS
+
+
+.              {\_/}
+               (`_´)
+               <,︻╦̵̵̿╤─ ҉  ~ ~ ~ ~  •
+         █۞█████████████]█]█████▄▄▄▄▄▄▄▄▄▄▃
+        ●●●
+     ▂▄▅███████████████████████████▅▄▃▂
+   [████████████████████████████████████]
+    ◥⊙▲⊙▲⊙▲⊙▲⊙▲⊙▲⊙⊙▲⊙▲⊙▲⊙▲⊙▲⊙▲⊙▲⊙▲⊙▲⊙▲
+_______________________________
+'
+
+echo " "
+setterm -foreground yellow
+figlet Comandos basicos
+echo " "
+setterm -foreground cyan
+echo 'Comando apt'
+echo " "
+setterm -foreground green
+echo 'apt funciona con una base de datos de paquetes disponibles. Si 
+la base de datos no se actualiza, el sistema no sabrá si hay paquetes
+nuevos disponibles, es por ello que debemos ejecutar la actualización 
+pdel repositorio en cualquier sistema Linux antes de realizar una nueva
+instalación'
+echo " "
+setterm -foreground cyan
+echo ' $ apt update'
+echo " "
+setterm -foreground green
+echo 'Para actualizar la lista de paquetes instalados '
+echo " "
+setterm -foreground cyan
+echo ' $ apt upgrade'
+echo ' '
+setterm -foreground green
+echo 'Para actualizar los paquetes instalados'
+echo ' '
+setterm -foreground cyan 
+echo ' $ cd '
+echo ' '
+setterm -foreground yellow
+echo ' EJEMPLO'
+echo ' '
+setterm -foreground red
+echo ' $ cd ( directorio )'
+echo ' '
+setterm -foreground green
+echo 'funciona para abrir directorios , pero si pones solo el
+comando ( cd ) te lleva al directorio HOME '
+echo ' '
+setterm -foreground cyan
+echo ' $ cd .. '
+echo ' '
+setterm -foreground green
+echo ' sirve para ir atras (retroceder a la carpeta anterior)'
+echo ' '
+setterm -foreground cyan
+echo ' $ ls '
+echo ' '
+setterm -foreground green
+echo 'funciona para listar o visualizar el contenido de un directorio'
+echo ' '
+setterm -foreground cyan
+echo ' $ ls -l '
+echo ' '
+setterm -foreground green
+echo ' sirve para ver los permisos de ejecucion de cada archivo y
+ directorio'
+echo ' '
+setterm -foreground cyan
+echo ' $ ls -a'
+echo ' '
+setterm -foreground green
+echo ' sirve para ver todos los archivos y directorios ocultos'
+echo ' '
+setterm -foreground cyan
+echo ' $ cp -r'
+echo ' '
+setterm -foreground green
+echo ' comando para copiar archivos'
+echo ' '
+setterm -foreground cyan
+echo ' $ cp -rf '
+echo ' '
+setterm -foreground green
+echo ' comando para copiar directorios '
+setterm -foreground yellow
+echo 'EJEMPLO'
+setterm -foreground red
+echo ' '
+echo ' $ cp -r (archivo) /data/data/com.termux/files/home'
+echo ' '
+setterm -foreground cyan
+echo ' mv '
+echo ' '
+echo 'este comando sirve para mover archivos o directorios'
+echo ' '
+setterm -foreground yellow
+echo ' EJEMPLO'
+echo ' '
+echo ' $ mv (archivo o directorio) /data/data/com.termux/files/home/temux'
+echo ' '
+setterm -foreground cyan
+echo ' $ pwd'
+echo ' '
+setterm -foreground green
+echo ' sirve para ver ls ruta en la que estas en estos momentos'
+echo ' '
+setterm -foreground cyan
+echo ' $ whoami'
+echo ' '
+setterm -foreground green
+echo ' (¿quien soy yo?) este comando sirve para ver con que usuario estas
+trabajando en estos momentos (u0_a285 o Root ) '
+echo ' '
+setterm -foreground cyan
+echo ' $ rm '
+echo ' '
+setterm -foreground green
+echo 'funciona para borrar archivos especificos, si ponemos la ruta
+especifica del archivo podemos borrarlo desde donde quiera que
+estemos '
+echo ' '
+setterm -foreground cyan
+echo ' '
+setterm -foreground yellow
+echo ' EJEMPLO '
+echo ' '
+setterm -foreground red
+echo ' $ rm archivo.txt '
+echo ' '
+echo ' O tambien puede ser'
+echo ' '
+echo ' $ rm /data/data/com.termux/files/home/archivo.txt '
+echo ' '
+setterm -foreground cyan
+echo ' $ rm -r '
+echo ' '
+setterm -foreground green
+echo 'este comando funciona para borrar directorios y todo su contenido, 
+no podemos utilizar el comando (rm) para borrar directorios
+solo para eliminar archivos, asi que este comando lo utilizaremos
+especificamente para eliminar directorios'
+echo ' '
+setterm -foreground yellow
+echo ' EJEMPLO '
+echo ' '
+setterm -foreground red
+echo ' rm -r (directorio) '
+echo ' '
+setterm -foreground cyan
+echo ' $ apt full-upgrade '
+echo ' '
+setterm -foreground green
+echo 'El método de actualización completa funciona igual que la 
+actualización,excepto que si la actualización del sistema necesita 
+la eliminación de un paquete ya instalado en el sistema, lo hará 
+mientras que el comando de actualización normal no lo ejecutará '
+echo ' '
+setterm -foreground cyan
+echo ' $ apt install'
+echo ' '
+setterm -foreground green
+echo 'El comando apt nos ofrece la opción de auto-completar, de esta
+manera, si no estamos seguros del nombre exacto del paquete, podremos
+escribir algunas letras y presionar ( tab )  para desplegar sugerencias
+de todos los paquetes disponibles con esas letras'
+echo ' '
+echo 'En el caso de ser necesario instalar diversos paquetes en el
+sistema, apt nos ofrece la posibilidad de instalarlos en una sola 
+línea y no uno por uno'
+echo ' '
+setterm -foreground yellow
+echo 'EJEMPLO'
+echo ' '
+setterm -foreground red
+echo ' $ apt install curl git wget '
+setterm -foreground cyan
+echo ' '
+echo ' '
+echo ' $ apt remove '
+echo ' '
+setterm -foreground green
+echo 'Otra de las tareas frecuentes que realizamos en ambientes Linux
+es la de remover paquetes y aplicaciones que ya no usamos como tal'
+echo ''
+setterm -foreground red
+echo ' $ apt remove ( nombre de el paquete )'
+echo ' '
+setterm -foreground green
+echo 'Otra forma de desinstalar paquetes en Linux es usando el parametro
+purge, el cual usaremos de la siguiente manera'
+echo ' '
+setterm -foreground red
+echo ' $ apt purge (nombre de el paquete)'
+echo ' '
+setterm foreground cyan
+echo ' $ apt show'
+setterm -foreground green
+echo ' '
+echo 'Esta opción es practica cuando deseamos obtener información 
+sobre el paquete tal como sus dependencias, el tamaño de instalación
+y descarga, las diferentes fuentes de las que está disponible el paquete
+la descripción del contenido del paquete entre otras cosas'
+echo ' '
+setterm -foreground yellow
+echo ' EJEMPLO '
+setterm -foreground red
+echo ' '
+echo ' $ apt show ( nombre_paquete)'
+setterm -foreground cyan
+echo ' '
+echo ' $ apt search '
+echo ' '
+setterm -foreground green
+echo 'En muchas ocasiones es posible que deseemos instalar un determinado
+paquete, pero no tengamos claro cuál es el nombre especifico de este.
+El comando apt nos permite obtener un listado de los paquetes
+disponibles con un determinado termino'
+echo ' '
+setterm -foreground yellow
+echo 'EJEMPLO '
+echo ' '
+setterm -foreground red
+echo ' $ apt search (termino) '
+echo ' '
+setterm -foreground cyan
+echo ' $ apt list y apt list --installed '
+echo ' '
+setterm -foreground green
+echo 'con ( apt list ) podemos ver todos los paquetes de el sistema '
+echo ' '
+echo 'con ( apt list --installed )'
+echo 'podemos ver todos los paquetes instalados en el sistema'
+echo ' '
+echo ' '
+setterm -foreground cyan
+echo ' $ dpkg -L'
+echo ' '
+setterm -foreground green
+echo 'Ver los paquetes de un archico instalado '
+setterm -foreground yellow
+echo ' '
+echo ' EJEMPLO '
+setterm -foreground red
+echo ' '
+echo ' $ dpkg -L ( paquete ) '
+echo ' '
+setterm -foreground blue 
+echo '' 
+echo '[ 99 ] para volver atras '
+
+setterm -foreground green
+echo ' '
+read -p "pack-Tool#~ : " o
+if [ $o = "99" ]
+then
+source $PREFIX/bin/pack-tool
+else
+echo " opción incorrecta ,verifique respuesta"| lolcat
+sleep 2
+clear
+source $PREFIX/tools/pack-Tool/.iten/comandos
+fi
+
